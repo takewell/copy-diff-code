@@ -11,7 +11,7 @@ gitbook github のコンテンツのコピペを省力化する Chrome 拡張
 ## Features
 
 - `code` タグのコンテンツをクリップボードにコピーする
-- diffであった場合 の `+` 行は `+` を除去 `-` 行は行そのものを除去する
+- diffであった場合, `+` 行は `+` を除去 `-` 行は行そのものを除去する
 
 ## Example
 
@@ -30,7 +30,7 @@ console.log(diff);
 
 ## Installation
 
-[Releases](https://github.com/howdy39/q-accelerator/releases) からソースをダウンロードし、
+[Releases](https://github.com/takewell/copy-diff-code/releases) からソースをダウンロードし、
 Chrome のアドレスバーから `chrome://extensions/` に遷移、デベロッパーモードに変更、`app`ディレクトリを選択する。
 
 ## Develop
