@@ -46,15 +46,12 @@ const parseDiffCode = code => {
 
     const svg = document.createElement('img');
     svg.src = chrome.extension.getURL('images/clippy.svg');
-    svg.style.height = '16px';
+    svg.style.maxHeight = '16px';
     svg.alt = 'Copy to clipboard';
-    svg.className = 'clippy';
 
     const button = document.createElement('button');
     button.appendChild(svg);
     button.style.float = 'right';
-    button.style.backgroundColor = '#7f7f7f';
-    button.className = 'qa-copy-code';
     preElement.insertBefore(button, code);
 
     button.onclick = () => {
