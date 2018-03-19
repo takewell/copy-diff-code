@@ -19,6 +19,9 @@
     "http://*/*",
     "https://*/*"
   ],
+  "web_accessible_resources": [
+    "images/*"
+  ],
   "content_scripts": [
     {
       "matches": [
