@@ -1,5 +1,5 @@
 {
-  "name": "n-content-copydiffcode",
+  "name": "copy-diff-code",
   "private": true,
   "engines": {
     "node": ">=0.8.0"
