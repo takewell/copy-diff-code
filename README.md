@@ -22,3 +22,12 @@ gitbook コンテンツのコードコピペを省力化する Chrome 拡張
 const diff = '+';
 console.log(diff);
 ```
+
+## Installation
+
+```
+git clone git@github.com:takewell/copy-diff-code.git
+npm i
+gulp build
+```
+[拡張機能](chrome://extensions/)に遷移、デベロッパーモードに変更、`app`ディレクトリを選択する。
