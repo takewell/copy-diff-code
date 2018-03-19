@@ -30,4 +30,4 @@ git clone git@github.com:takewell/copy-diff-code.git
 npm i
 gulp build
 ```
-[拡張機能](chrome://extensions/)に遷移、デベロッパーモードに変更、`app`ディレクトリを選択する。
+[拡張機能](https://chrome://extensions/)に遷移、デベロッパーモードに変更、`app`ディレクトリを選択する。
