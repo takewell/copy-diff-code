@@ -15,11 +15,11 @@ gitbook github のコンテンツのコピペを省力化する Chrome 拡張
 
 ## Example
 
-<code>
-  +const diff = '+';
-  -const udiff = '-';
-  console.log(diff);
-</code>
+```
++const diff = '+';
+-const udiff = '-';
+console.log(diff);
+```
 
 上記のような`code`であった場合クリップボードには次の内容がコピーされる。
 
