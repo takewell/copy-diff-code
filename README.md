@@ -35,6 +35,7 @@ Chrome のアドレスバーから `chrome://extensions/` に遷移、デベロ�
 
 ## Develop
 
+`node.js` や `gulp` が グローバルインストールされている前提。
 ```
 git clone git@github.com:takewell/copy-diff-code.git
 npm i
